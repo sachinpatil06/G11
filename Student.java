@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends StudentInfo {
 
     String name="sachin";
     int age=20;
@@ -26,6 +26,7 @@ public class Student {
         Student s = new Student(14, "june", 2003);
         s.display();
         s.read();
+        s.stud_info();
     }
 }
 
